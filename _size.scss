@@ -1,0 +1,7 @@
+$header-height: 50px;
+$page-height: calc(100vh - 50px);
+$sidebar-width: 200px;
+$filter-control-panel-header-height: 50px;
+$filter-control-panel-width: 220px;
+$navbar-height: 60px;
+$page-height-with-navbar: calc(#{$page-height} - 60px);
