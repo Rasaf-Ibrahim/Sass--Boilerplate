@@ -1,0 +1,117 @@
+/*
+Note: I am using breakpoints of 576px, 768px, 992px, 1280px & 1536px. 
+
+
+xs-o = = Extra Small Screen Only = less than 576px = Portrait phones
+
+sm-u = Small Screen and up = 576px and up 
+sm-o = Small Screen Only = 576px to 767px = Landscape phones & small tablets 
+
+
+md-u = Medium Screen and up = 768px and up 
+md-o = Medium Screen Only = 768px to 991px = Tablets
+
+lg-u = Large Screen and up = 992px and up 
+lg-o = Large Screen Only = 992px to 1279px = Laptops 
+
+xl-u = Extra Large Screen and up = 1280px and up
+xl-o = Extra Large Screen Only = 1280px to 1535px = Dekstops
+ 
+xxl-u = Extra extra Large Screen and up = 1536px and up = Large Dekstop
+
+/***************************************************************/
+
+// Extra Small Screen Only 
+
+@mixin xs-o {
+   @media screen and (max-width: 575px){
+       @content;
+   }
+}
+
+/***************************************************************/
+
+// Small Screen and up
+
+@mixin sm-u {
+   @media screen and (min-width: 576px){
+       @content;
+   }
+}
+
+
+// Small Screen only
+
+@mixin sm-o {
+   @media screen and (min-width: 576px) and (max-width: 767px){
+       @content;
+   }
+}
+
+
+/***************************************************************/
+
+// Medium Screen and up
+
+@mixin md-u {
+   @media screen and (min-width: 768px){
+       @content;
+   }
+}
+
+
+// Medium Screen only
+
+@mixin md-o {
+   @media screen and (min-width: 768px) and (max-width: 991px){
+       @content;
+   }
+}
+
+/***************************************************************/
+
+// Large Screen and up
+
+@mixin lg-u {
+   @media screen and (min-width: 992px){
+       @content;
+   }
+}
+
+
+// Large Screen only
+
+@mixin lg-o {
+   @media screen and (min-width: 992px) and (max-width: 1279px){
+       @content;
+   }
+}
+
+/***************************************************************/
+
+// Extra Large Screen and up
+
+@mixin xl-u {
+   @media screen and (min-width: 1280px){
+       @content;
+   }
+}
+
+
+// Extra Large Screen only
+
+@mixin xl-o {
+   @media screen and (min-width: 1280px) and (max-width: 1535px){
+       @content;
+   }
+}
+
+/***************************************************************/
+
+// Extra extra Large Screen and up
+
+@mixin xxl-u {
+   @media screen and (min-width: 1536px){
+       @content;
+   }
+}
