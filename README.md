@@ -5,10 +5,8 @@
 ### Some important Advanced topic of Sass:
 
 
-#### Mixins:
 
-
-##### Mixins with Arguments
+#### Mixins with Arguments
 
 If you place a set of parentheses after the name of your mixin, but before the curly braces, and fill the parentheses with a argument (or several), your mixin becomes customizable:
 
@@ -42,7 +40,7 @@ And when you check out the compiled CSS code, the heading header has a white sha
 ```
 
 
-##### Mixins with Default Arguments
+#### Mixins with Default Arguments
 
 Rather than having to enter a color value each time you use your **heading-shadow** mixin, you can set the default value for the argument. Then, if you decide not to customize the shadow's color, it will use the default instead. Do this by defining its value just like a normally declared variable:
 
