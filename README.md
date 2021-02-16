@@ -3,7 +3,7 @@
 ---
 
 #### Breakpoint.scss (Explanation & Usage) <br/>
-##### [Link](https://github.com/Rasaf-Ibrahim/Sass--Boilerplates/tree/003) : 003(Branch Name)<br/>
+##### [Link](https://github.com/Rasaf-Ibrahim/Sass--Boilerplate/tree/003) : 003(Branch Name)<br/>
 
 
 
@@ -13,7 +13,7 @@
 ---
 
 #### allStyle.scss  <br/>
-##### [Link](https://github.com/Rasaf-Ibrahim/Sass--Boilerplates/tree/001) : 001(Branch Name)<br/>
+##### [Link](https://github.com/Rasaf-Ibrahim/Sass--Boilerplate/tree/001) : 001(Branch Name)<br/>
 
 
 
@@ -22,6 +22,6 @@
 ---
 
 #### Some important & advanced topic of Sass <br/>
-##### [Link](https://github.com/Rasaf-Ibrahim/Sass--Boilerplates/tree/002) : 002(Branch Name)<br/>
+##### [Link](https://github.com/Rasaf-Ibrahim/Sass--Boilerplate/tree/002) : 002(Branch Name)<br/>
 
 ---
