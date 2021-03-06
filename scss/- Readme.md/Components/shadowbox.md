@@ -62,7 +62,7 @@ Importing **breakpoint** sass file to use it later.
 
 
 
-**Responsive Shadow Box (Mixin) ** 
+**Responsive Shadow Box (Mixin)** 
 
 
 
@@ -94,7 +94,7 @@ Importing **breakpoint** sass file to use it later.
 
 
 
-**Responsive Shadow Box (Class) ** 
+**Responsive Shadow Box (Class)** 
 
 ```scss
 .shadowbox-responsive-high_r {
