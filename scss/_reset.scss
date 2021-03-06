@@ -7,31 +7,25 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
-  margin: 0;
-  padding: 0;
- font-family: 'Montserrat', sans-serif;
- 
+  // margin: 0;
+  // padding: 0;
 }
+
+/* If you are not using a CSS framework, don't comment out Margin and padding. */
+
 
  /* 
  Elements will be stripped of margins and padding, and box-sizing lets you manage layouts using the CSS box model.
 
  Inheriting the box-sizing from the html selector
  makes it easier to change box-sizing in plugins or other components that leverage other behavior.
-
- You can also add font-family there if you haven't already to use globally.
 */
   
 
+ul {
+  list-style-type: none;
+}
 
-
-
-  
-
-  
-  
-  li {
-    list-style-type: none;
-  }
-  
-
+a {
+  text-decoration: none;
+}

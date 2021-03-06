@@ -1,4 +1,41 @@
 
+/* 
+Find Color (ctrl + F)
+
+grey, orange, material design
+
+*/
+
+
+
+
+
+
+
+
+
+// Grey
+
+$grey: hsl(0,0%,60%); 
+
+$grey-light:  hsl(0,0%, 75%);
+
+$grey-lighter:  hsl(0,0%, 90%);
+
+$grey-dark: hsl(0,0%, 45%);
+
+$grey-dark: hsl(0,0%, 30%);
+
+
+
+// Orange
+
+$orange-light:hsl(14,100%,75%);
+
+$orange: hsl(14,100%,56%);
+
+$orange-dark: hsl(14,100%,40%);
+
 
 
 
@@ -14,7 +51,7 @@ $white: #FFFFFF;
 
 $black: #000000;
 
-$grey: #9E9E9E;
+// $grey: #9E9E9E;
 
 $blue-grey: #607D8B;
 

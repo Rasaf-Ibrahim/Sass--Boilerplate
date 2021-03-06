@@ -1,10 +1,19 @@
+// Actual Style
 
-@import 'breakpoints';
-@import 'typography';
+@import 'reset';
+@import 'font';
+
+
+// variables, mixins
 @import 'colors';
+@import 'breakpoints';
 @import 'flexbox';
-@import 'global';
 @import 'content-wrapper';
 @import 'link';
 @import 'border';
+@import 'helper';
 
+
+//Components
+
+@import './Components/shadowbox.scss';

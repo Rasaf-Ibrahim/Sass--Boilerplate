@@ -1,0 +1,114 @@
+
+// ******************************************
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster+Two family=Open+Sans&family=Roboto+Mono&display=swap');
+ 
+
+
+html{
+  font-family: 'Open Sans', sans-serif; 
+}
+
+.font-monospace_r {
+  font-family: 'Roboto Mono', monospace;
+}
+
+
+.font-cursive_r {
+  font-family: 'Lobster Two', cursive;
+}
+
+
+
+
+/* ********** Font Size ********** */
+
+
+
+@import 'breakpoints';
+
+
+
+//Mobile Screen
+
+.font-xl_r {
+  font-size: 2.5rem; //40px
+}
+
+.font-lg_r {
+  font-size: 1.75rem; //28px
+}
+
+.font-md_r {
+ font-size: 1.3125rem; //21px
+}
+
+.font-sm_r {
+  font-size: 0.9375rem; //15px
+}
+
+
+.font-xs_r {
+  font-size: 0.75rem; //12px
+}
+
+ 
+
+
+// Tablet and Laptop
+
+
+@include mq-md{
+
+.font-xl_r {
+  font-size: 3rem; //48px
+}
+
+.font-lg_r {
+  font-size: 2rem; //32px
+}
+
+.font-md_r {
+ font-size: 1.5rem; //24px
+}
+
+.font-sm_r {
+  font-size: 1rem; //16px
+}
+
+
+.font-xs_r {
+  font-size: 0.8125; //13px
+}
+
+}
+
+
+
+//Dekstop and Extra Large Screen
+
+
+@include mq-xl {
+
+ .font-xl_r {
+    font-size: 3.5rem; //56px
+  }
+
+ .font-lg_r {
+    font-size: 2.25rem; //36px
+  }
+
+ .font-md_r {
+   font-size: 1.75rem; //28px
+ }
+
+  .font-sm_r {
+    font-size: 1.125rem; //18px
+  }
+
+
+  .font-xs_r {
+    font-size: 0.875; //14px
+  }
+
+}

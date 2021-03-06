@@ -1,20 +1,20 @@
 /* Just using the first letter of a word in the mixin*/
 
 
-@mixin d-f ($flex-direction:row) {
+@mixin flex ($flex-direction:row) {
     display: flex;
     flex-direction: $flex-direction;
 }
 
 
 
-@mixin d-f--jc-se ($flex-direction:row) {
+@mixin flex--jc-se ($flex-direction:row) {
     display: flex;
     justify-content: space-evenly;
     flex-direction: $flex-direction;
 }
 
-@mixin d-f--jc-se--fw-w($flex-direction:row) {
+@mixin flex--jc-se--fw-w($flex-direction:row) {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -22,7 +22,7 @@
 }
 
 
-@mixin d-f--jc-c--ai-c ($flex-direction:row) {
+@mixin flex--jc-c--ai-c ($flex-direction:row) {
 display: flex;
 justify-content: center;
 align-items: center;

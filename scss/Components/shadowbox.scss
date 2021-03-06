@@ -1,0 +1,65 @@
+
+
+$blur-radius: 5px;
+$alpha:0.3;
+
+
+
+
+@import '../breakpoints';
+
+
+
+@mixin shadowbox-responsive ($BlurRadius, $Alpha) {
+    background: transparent; 
+    box-shadow: 6px 6px $BlurRadius rgba(0, 0, 0, $Alpha);
+
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    
+    width:90%;
+
+  @include mq-md {
+    max-width: 700px;
+  }
+
+  @include mq-lg {
+    max-width: 800px;
+  }
+
+  @include mq-xl {
+    max-width: 900px;
+  }
+
+}
+
+
+ .shadowbox-responsive_r {
+  @include shadowbox-responsive($blur-radius,$alpha);
+ }
+ 
+
+
+ 
+
+@mixin shadowbox-fixed ($BlurRadius, $Alpha) {
+    background: transparent; 
+    box-shadow: 6px 6px $BlurRadius rgba(0, 0, 0, $Alpha);
+
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    
+    width:90%;
+
+    max-width: 600px;
+}
+
+
+
+.shadowbox-fixed_r {
+  @include shadowbox-fixed($blur-radius,$alpha);
+ }
+ 
+
+ 
+
