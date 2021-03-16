@@ -7,6 +7,7 @@
 }
 
 
+//  Space evenly
 
 @mixin flex--jc-se ($flex-direction:row) {
     display: flex;
@@ -14,12 +15,24 @@
     flex-direction: $flex-direction;
 }
 
+
 @mixin flex--jc-se--fw-w($flex-direction:row) {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     flex-direction: $flex-direction;
 }
+
+
+// Center 
+
+@mixin flex--jc-c ($flex-direction:row) {
+    display: flex;
+    justify-content: center;
+    flex-direction: $flex-direction;
+    }
+
+
 
 
 @mixin flex--jc-c--ai-c ($flex-direction:row) {

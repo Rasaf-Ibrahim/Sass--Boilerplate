@@ -1,22 +1,48 @@
 
+$border-width:2px;
+
+@import './custom.scss';
+
 // border-top
-@mixin border-t ($width:2px, $color: $grey){
- border-top : $width solid $color;
+@mixin border-t ($width:$border-width){
+ border-top : $width solid transparent;
 }
 
+
+.border-t_r{
+    @include border-t;
+}
+
+
 // border-bottom
-@mixin border-b ($width:2px, $color:$grey) {
-    border-bottom : $width solid $color;
+@mixin border-b ($width:$border-width) {
+    border-bottom : $width solid transparent;
    }
+
+
+.border-b_r{
+    @include border-b;
+}
+
+
    
 //border-left
-@mixin border-l ($width:2px, $color:$grey){
- border-left : $width solid $color;
+@mixin border-l ($width:$border-width){
+ border-left : $width solid transparent;
 }
+
+
+.border-l_r{
+    @include border-l;
+}
+
 
 //border-right
 
-@mixin border-r ($width:2px, $color:$grey){
-    border-right : $width solid $color;
+@mixin border-r ($width:$border-width){
+    border-right : $width solid transparent;
    }
    
+.border-r_r{
+    @include border-r;
+}

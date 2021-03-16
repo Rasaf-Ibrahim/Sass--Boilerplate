@@ -1,0 +1,24 @@
+@import 'breakpoints';
+
+//Mobile Screen
+.m-xl_r {
+margin: 2.5rem;
+}
+
+
+// Tablet and Laptop
+
+@include mq-md {
+    .m-xl_r {
+        margin: 3rem;
+    }
+}
+
+
+//Dekstop and Extra Large Screen
+
+@include mq-xl {
+    .m-xl_r {
+        margin: 3.5rem;
+    }
+}

@@ -1,7 +1,14 @@
+@import './colors';
+
 
 html {
   box-sizing: border-box;
+  background-color: $black;
 }
+
+/* Select background color for the whole website/web app with background-color property.
+*/
+
 
 *,
 *::before,
@@ -9,6 +16,7 @@ html {
   box-sizing: inherit;
   // margin: 0;
   // padding: 0;
+ 
 }
 
 /* If you are not using a CSS framework, don't comment out Margin and padding. */

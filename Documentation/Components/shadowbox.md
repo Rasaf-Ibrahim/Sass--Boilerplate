@@ -34,10 +34,6 @@ If you need different `$blur-radius` and `$alpha` for multiple Shadow Box, you m
 
 
 
-
-
-
-
 #### Code..
 
 
@@ -62,7 +58,7 @@ Importing **breakpoint** sass file to use it later.
 
 
 
-**Responsive Shadow Box (Mixin)** 
+**Responsive Shadow Box (Mixin) ** 
 
 
 
@@ -94,7 +90,7 @@ Importing **breakpoint** sass file to use it later.
 
 
 
-**Responsive Shadow Box (Class)** 
+**Responsive Shadow Box (Class) ** 
 
 ```scss
 .shadowbox-responsive-high_r {
@@ -150,6 +146,9 @@ Importing **breakpoint** sass file to use it later.
   @include shadowbox-fixed(6px,0.3);
  }
 ```
+
+
+
 
 
 
