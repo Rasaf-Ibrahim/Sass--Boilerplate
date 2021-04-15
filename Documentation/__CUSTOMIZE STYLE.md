@@ -1,3 +1,11 @@
+
+
+> #### This is the documentation of '_custom.scss' file which is in the 'scss' folder. 
+
+
+
+
+
 ## How to customize the Sass Style by using Variable
 
 

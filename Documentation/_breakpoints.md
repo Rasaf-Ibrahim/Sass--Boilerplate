@@ -1,3 +1,9 @@
+> #### This is the documentation of '_breakpoints.scss' file which is in the 'scss' folder. 
+
+
+
+
+
 #### Breakpoint no. 1 (576px or 36em):
 
 A portrait mobile screen can’t be bigger than 550px because people need to hold their phone in one hand and a Landscape mobile screen or tablet screen can’t be smaller than 640px. So, 576px (36em) will be a safe breakpoint.
